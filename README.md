@@ -8,9 +8,9 @@ go-uinames is a Go wrapper for [https://uinames.com](https://uinames.com)
 
 ## Getting Started
 
-```
+````Go
 import "github.com/tobiola/go-uinames"
-```
+````
 
 ## Example
 
@@ -20,5 +20,5 @@ name, _ := uinames.GetName(nil)
 
 // Generate an array of 5 NameExtra structs from the region United States
 options := uinames.Options{Region: "United States", Amount: 5}
-names, _ := uinamesGetNames(&options)
+names, _ := uinames.GetNames(&options)
 ````
